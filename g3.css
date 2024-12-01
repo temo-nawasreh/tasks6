@@ -1,0 +1,14 @@
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap:10px;
+}
+
+.item img {
+    width: 100%; /* الصورة تملأ عرض الحاوية */
+    height: 100%; /* الصورة تملأ ارتفاع الحاوية */
+    object-fit: cover; /* لضمان التناسب مع الحاوية دون تشويه */
+   
+  }
